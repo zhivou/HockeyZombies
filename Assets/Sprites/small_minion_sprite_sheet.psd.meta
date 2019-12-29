@@ -206,12 +206,12 @@ TextureImporter:
       name: small_minion_sprite_sheet_4
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 44
-        width: 314
-        height: 206
+        x: 1688
+        y: 78
+        width: 223
+        height: 144
       alignment: 9
-      pivot: {x: 0.50408584, y: 0.19170146}
+      pivot: {x: 0.5052501, y: 0.0760088}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

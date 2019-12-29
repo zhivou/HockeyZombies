@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 74fd299e044034bb4b02810971f79025
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6199761607270767502
+    second: small_minion_sprite_sheet_0
+  - first:
+      213: -8336744465589830785
+    second: small_minion_sprite_sheet_1
+  - first:
+      213: 8828881328847100509
+    second: small_minion_sprite_sheet_2
+  - first:
+      213: -1072813306771091224
+    second: small_minion_sprite_sheet_3
+  - first:
+      213: -2950002118750240892
+    second: small_minion_sprite_sheet_4
+  - first:
+      213: 8647923135031762065
+    second: small_minion_sprite_sheet_5
+  - first:
+      213: -7885424571215672177
+    second: small_minion_sprite_sheet_6
+  - first:
+      213: 2693582222929596551
+    second: small_minion_sprite_sheet_7
+  - first:
+      213: 6350868763828101951
+    second: small_minion_sprite_sheet_8
+  - first:
+      213: -8592017849997789138
+    second: small_minion_sprite_sheet_9
+  - first:
+      213: 5354196800532072123
+    second: small_minion_sprite_sheet_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 224
+        width: 419
+        height: 551
+      alignment: 9
+      pivot: {x: 0.6175465, y: 0.45501298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96760d3519a984f85bffb95edeff9e59
+      internalID: 6199761607270767502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 220
+        width: 397
+        height: 555
+      alignment: 9
+      pivot: {x: 0.35676193, y: 0.44816127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2da65ae2e0c452289093977810c68e
+      internalID: -8336744465589830785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 280
+        width: 298
+        height: 476
+      alignment: 9
+      pivot: {x: 0.46849766, y: 0.48331213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683099fdd0bbc4cc0a529867c80717f8
+      internalID: 8828881328847100509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 282
+        width: 520
+        height: 492
+      alignment: 9
+      pivot: {x: 0.50694346, y: 0.06701716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c175d7bd749d4609a3104302cdc2fa2
+      internalID: -1072813306771091224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 44
+        width: 314
+        height: 206
+      alignment: 9
+      pivot: {x: 0.50408584, y: 0.19170146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6525f0e31100f49b7b96e85470abab1e
+      internalID: -2950002118750240892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 33
+        width: 140
+        height: 208
+      alignment: 9
+      pivot: {x: 0.43584943, y: 0.4938317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0108f33d4574cfba3896aaa82e7e86
+      internalID: 8647923135031762065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 26
+        width: 116
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5387121, y: 0.52710605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba1b7f5373aa4f5aada6f1614cb56c1
+      internalID: -7885424571215672177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 160
+        width: 127
+        height: 79
+      alignment: 9
+      pivot: {x: 0.7677175, y: 0.53248173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb0686fa1f444416ac47f0d407a09e8
+      internalID: 2693582222929596551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 151
+        width: 123
+        height: 90
+      alignment: 9
+      pivot: {x: 0.2340083, y: 0.5641508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4631e57b5d9401097771edeeda5fb8
+      internalID: 6350868763828101951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 24
+        width: 98
+        height: 88
+      alignment: 9
+      pivot: {x: 0.58509856, y: 0.77701545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbad92b948bc43eda13d8b41862dcb5
+      internalID: -8592017849997789138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_minion_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 20
+        width: 97
+        height: 88
+      alignment: 9
+      pivot: {x: 0.40079835, y: 0.8207552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d464d4a76d4c1fb2565ce09a706a1
+      internalID: 5354196800532072123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

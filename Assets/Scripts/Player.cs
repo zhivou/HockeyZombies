@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveAmount;
     private Animator anim;
+    public float health;
 
     void Start()
     {
@@ -34,5 +35,12 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
+    }
+
+    public void TakeDamage(int damageAmout) {
+        health -= damageAmout;
+        if (health <= 0) {
+            Destroy(gameObject);
+        }
     }
 }

@@ -2,16 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
-{
+public class Enemy : MonoBehaviour {
+
     public int health;
+    public float speed;
+    public float timeBetweenAtack;
+    public int damage;
 
-    public void TakeDamage(int damageAmout)
-    {
+    [HideInInspector]
+    public Transform player;
+
+    // This will find a player object by tag name - Player
+    private void Start() {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    public void TakeDamage(int damageAmout) {
         health -= damageAmout;
-
-        if(health <= 0)
-        {
+        if(health <= 0) {
             Destroy(gameObject);
         }
     }

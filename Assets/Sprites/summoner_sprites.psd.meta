@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 9463e1e856299414fa99849d219b5f56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2229115393819911710
+    second: summoner_sprites_0
+  - first:
+      213: 3390308904946839922
+    second: summoner_sprites_1
+  - first:
+      213: 311623960711542316
+    second: summoner_sprites_2
+  - first:
+      213: -6725498227324272676
+    second: summoner_sprites_3
+  - first:
+      213: -6131954832808809844
+    second: summoner_sprites_4
+  - first:
+      213: -7252040188940260854
+    second: summoner_sprites_5
+  - first:
+      213: -223127395241942467
+    second: summoner_sprites_6
+  - first:
+      213: 1840900188469654678
+    second: summoner_sprites_7
+  - first:
+      213: 8892637954560475899
+    second: summoner_sprites_8
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: summoner_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 990
+        width: 581
+        height: 479
+      alignment: 9
+      pivot: {x: 0.29045075, y: 0.4200149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1833886771e584b5a926d44f56a21589
+      internalID: 2229115393819911710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1215
+        width: 56
+        height: 110
+      alignment: 9
+      pivot: {x: 0.43127006, y: 0.7799161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181483646d6454655abab365d021328c
+      internalID: 3390308904946839922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 940
+        width: 518
+        height: 493
+      alignment: 9
+      pivot: {x: 0.52229035, y: 0.2579831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e2a133846949aa9b52fbc30217df1
+      internalID: 311623960711542316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 654
+        width: 388
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5049599, y: 0.12117617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd3bce53726481893af048b59d838a
+      internalID: -6725498227324272676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 507
+        width: 393
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9cf05f84c0e4b7db0a140eab8e85b0
+      internalID: -6131954832808809844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 711
+        width: 114
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ad6ea08da384b1ba3f8f93ae04c629
+      internalID: -7252040188940260854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 719
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80d25c6d23884db8bb33f96b6d341b1
+      internalID: -223127395241942467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 67
+        width: 291
+        height: 467
+      alignment: 9
+      pivot: {x: 0.6851682, y: 0.2857171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70fbd6e1c1ff481d830260b350b16ea
+      internalID: 1840900188469654678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summoner_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 70
+        width: 262
+        height: 441
+      alignment: 9
+      pivot: {x: 0.20619446, y: 0.3079939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162648b547ac424b84c558d6ca6eda7
+      internalID: 8892637954560475899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

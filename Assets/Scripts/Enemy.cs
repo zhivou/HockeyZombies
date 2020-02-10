@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour {
     public Transform player;
 
     // This will find a player object by tag name - Player
-    private void Start() {
+    public virtual void Start() {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1241299001107127738}
   - component: {fileID: 4476334031815554075}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: leg_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628954671343713776}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1543522, y: -1.5891438, z: 100.130455}
+  m_LocalPosition: {x: -0.22, y: -0.42, z: 100.130455}
   m_LocalScale: {x: 1.552178, y: 1.3674, z: 1}
   m_Children: []
   m_Father: {fileID: 1738796271243943911}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7417281588559340004}
   - component: {fileID: 4014736911310592179}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: leg_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642417292166556661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8392601, y: -1.5959811, z: 100.130455}
+  m_LocalPosition: {x: 0.09509182, y: -0.42683744, z: 100.130455}
   m_LocalScale: {x: 1.552178, y: 1.3674, z: 1}
   m_Children: []
   m_Father: {fileID: 1738796271243943911}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884745890505580097}
   - component: {fileID: 7395007081780820465}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hand_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4689729621725024284}
   - component: {fileID: 993823104557589628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030649288260352269}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.01, y: -1.57, z: 100.130455}
+  m_LocalPosition: {x: -0.07564807, y: -0.40085638, z: 100.130455}
   m_LocalScale: {x: 1.552178, y: 1.3674, z: 1}
   m_Children:
   - {fileID: 3412808475053515370}
@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3773846222943209233}
   - component: {fileID: 1172985180125146279}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5323072493849883147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.018, y: -1.758, z: 100.130455}
+  m_LocalPosition: {x: -0.08364797, y: -0.58885634, z: 100.130455}
   m_LocalScale: {x: 0.15430318, y: 0.04358038, z: 1}
   m_Children: []
   m_Father: {fileID: 1738796271243943911}
@@ -418,7 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4633834896487159712}
   - component: {fileID: 3957488072429293388}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hand_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7021536172169698504}
   - component: {fileID: 6102147118398370996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3412808475053515370}
   - component: {fileID: 4074649237313422809}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,9 +661,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738796271243943911}
-  m_Layer: 0
+  - component: {fileID: 3894038282440974067}
+  - component: {fileID: 7764905900227708848}
+  - component: {fileID: 1943235900389341804}
+  - component: {fileID: -844517467461590147}
+  m_Layer: 9
   m_Name: SkullMinion
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,3 +690,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &3894038282440974067
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123393266339381822}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &7764905900227708848
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123393266339381822}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05873823, y: 1.3784542}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.769927, y: 4.311016}
+  m_EdgeRadius: 0
+--- !u!114 &1943235900389341804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123393266339381822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22277a000bc06472eb517449643ee739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  speed: 25
+  timeBetweenAtack: 1
+  damage: 1
+  player: {fileID: 0}
+  stopDistance: 6
+  attackSpeed: 5
+--- !u!95 &-844517467461590147
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123393266339381822}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea7d293a017584dc09cc22332d36bda4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

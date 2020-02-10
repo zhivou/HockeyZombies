@@ -8,10 +8,16 @@ public class Summoner : Enemy{
     public float minY;
     public float maxX;
     public float maxY;
+    public float timeBetweenSummons;
+    public Enemy enemyToSummon;
 
     private Vector2 targetPostition;
     private Animator anim;
+    private float summonTime;
 
+    // Here is an ovveride method wich overwrites original superclass method.
+    // Require to add virtual to a parant method in order to let c# overwrite it.
+    // base.Start(); - like super in Ruby - run both parent and child methods.
     public override void Start(){
         base.Start();
         float randomX = Random.Range(minX, maxX);
@@ -28,6 +34,20 @@ public class Summoner : Enemy{
         if(targetDistance > .5f){
             transform.position = Vector2.MoveTowards(transform.position, targetPostition, speed * Time.deltaTime);
             anim.SetBool("isRunning", true);
+        }
+        else{
+            anim.SetBool("isRunning", false);
+            if(Time.time >= summonTime)
+            {
+                summonTime = Time.time + timeBetweenSummons;
+                anim.SetTrigger("summon");
+            }
+        }
+    }
+
+    public void Summon(){
+        if(player != null){
+            Instantiate(enemyToSummon, transform.position, transform.rotation);
         }
     }
 }

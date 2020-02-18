@@ -965,10 +965,10 @@ MonoBehaviour:
   timeBetweenAtack: 2
   damage: 1
   player: {fileID: 0}
-  minX: -38.4
-  minY: -31.1
+  minX: -23.1
+  minY: -30.1
   maxX: 54.8
-  maxY: 18.7
+  maxY: 17.7
   timeBetweenSummons: 1
   enemyToSummon: {fileID: 1943235900389341804, guid: 31dea06783e004c90938f21dc9140379,
     type: 3}

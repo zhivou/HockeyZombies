@@ -967,11 +967,12 @@ MonoBehaviour:
   player: {fileID: 0}
   minX: -38.4
   minY: -31.1
-  maxX: 57.8
+  maxX: 54.8
   maxY: 18.7
   timeBetweenSummons: 1
   enemyToSummon: {fileID: 1943235900389341804, guid: 31dea06783e004c90938f21dc9140379,
     type: 3}
+  costsCounts: 2
 --- !u!1 &8465349457733927301
 GameObject:
   m_ObjectHideFlags: 0
